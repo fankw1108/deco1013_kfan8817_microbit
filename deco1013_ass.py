@@ -1,14 +1,6 @@
-# Write your code here :-)
 from microbit import *
 import utime
 import music
-
-#comment
-'''
-1. the device will produce sound only if the user leaves the backrest for more than 5s
-2. check moving speed to determine whether the user is leaving or going to sit
-3. allow to adjust the volume
-'''
 
 class Rangefinder:
     def __init__(self, pin):
